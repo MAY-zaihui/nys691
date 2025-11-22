@@ -100,24 +100,24 @@ const Contact = () => {
                 社交媒体
               </h3>
               <div className="flex space-x-4">
-                <a 
-                  href="#"
+                <button 
                   className="w-10 h-10 bg-gray-200 text-gray-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                  aria-label="GitHub"
                 >
                   GitHub
-                </a>
-                <a 
-                  href="#"
+                </button>
+                <button 
                   className="w-10 h-10 bg-gray-200 text-gray-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                  aria-label="LinkedIn"
                 >
                   LinkedIn
-                </a>
-                <a 
-                  href="#"
+                </button>
+                <button 
                   className="w-10 h-10 bg-gray-200 text-gray-600 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                  aria-label="Twitter"
                 >
                   Twitter
-                </a>
+                </button>
               </div>
             </div>
           </div>
